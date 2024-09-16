@@ -1,0 +1,12 @@
+{
+  "common": {
+    "welcome": "Välkommen",
+    "welcomeUser": "Det var ett tag sedan, {{name}}!",
+    "heroDescription": "Detta är ett projekt som visar upp react-i18next"
+  },
+  "card": {
+    "title": "Fin kort",
+    "description": "Detta är ett fint kort.",
+    "button": "Klicka på mig, jag är ett fint kort"
+  }
+}

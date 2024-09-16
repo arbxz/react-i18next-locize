@@ -1,0 +1,12 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "welcomeUser": "It's been a while, {{name}}!",
+    "heroDescription": "This is a project showcasing react-i18next"
+  },
+  "card": {
+    "title": "Nice card",
+    "description": "This is a nice card.",
+    "button": "Click me i'm a nice card"
+  }
+}

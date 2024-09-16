@@ -1,0 +1,12 @@
+{
+  "common": {
+    "welcome": "Willkommen",
+    "welcomeUser": "Es ist eine Weile her, {{name}}!",
+    "heroDescription": "Dies ist ein Projekt, das react-i18next demonstriert"
+  },
+  "card": {
+    "title": "Schöne Karte",
+    "description": "Das ist eine schöne Karte.",
+    "button": "Klick mich, ich bin eine schöne Karte"
+  }
+}
