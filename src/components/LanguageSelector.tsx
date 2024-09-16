@@ -1,10 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-function LanguageSelector() {
+const LanguageSelector = () => {
   const { i18n } = useTranslation();
 
-  const changeLanguage = (lng) => {
+  const changeLanguage = (lng: string | undefined) => {
     i18n.changeLanguage(lng);
   };
 
@@ -15,6 +15,6 @@ function LanguageSelector() {
       <button onClick={() => changeLanguage("de")}>German</button>
     </div>
   );
-}
+};
 
 export default LanguageSelector;

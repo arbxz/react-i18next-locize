@@ -1,23 +1,23 @@
 import React from "react";
 import "./i18n";
-import logo from "./logo.svg";
 import "./App.css";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "./components/LanguageSelector";
+import Card from "./components/Card";
 
-function App() {
+const App = () => {
   const { t } = useTranslation();
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <LanguageSelector />
         <p>{t("common:welcome")}</p>
         <p>{t("common:welcomeUser", { name: "arbaaz" })}</p>
+        <Card />
         <p>Links to Locize and nexus below :</p>
         <a
           className="App-link"
@@ -36,6 +36,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
