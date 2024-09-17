@@ -2,11 +2,18 @@
   "common": {
     "welcome": "Willkommen",
     "welcomeUser": "Es ist eine Weile her, {{name}}!",
-    "heroDescription": "Dies ist ein Projekt, das react-i18next demonstriert"
+    "heroDescription": "Dies ist ein Projekt, das react-i18next demonstriert",
+    "clickAmount_one": "Du hast {{count}} Mal geklickt",
+    "clickAmount_other": "Du hast {{count}} Mal geklickt"
   },
   "card": {
     "title": "Schöne Karte",
     "description": "Das ist eine schöne Karte.",
     "button": "Klick mich, ich bin eine schöne Karte"
+  },
+  "transComponent": {
+    "nameTitle": "Das ist dein Name",
+    "userMessagesUnread_one": "Hallo <1>{{name}}</1>, du hast {{count}} ungelesene Nachricht. <5>Zur Nachricht gehen</5>.",
+    "userMessagesUnread_other": "Hallo <1>{{name}}</1>, du hast {{count}} ungelesene Nachrichten. <5>Zu den Nachrichten gehen</5>."
   }
 }

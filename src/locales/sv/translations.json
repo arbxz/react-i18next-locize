@@ -2,11 +2,18 @@
   "common": {
     "welcome": "Välkommen",
     "welcomeUser": "Det var ett tag sedan, {{name}}!",
-    "heroDescription": "Detta är ett projekt som visar upp react-i18next"
+    "heroDescription": "Detta är ett projekt som visar upp react-i18next",
+    "clickAmount_one": "Du klickade {{count}} gång",
+    "clickAmount_other": "Du klickade {{count}} gånger"
   },
   "card": {
     "title": "Fin kort",
     "description": "Detta är ett fint kort.",
     "button": "Klicka på mig, jag är ett fint kort"
+  },
+  "transComponent": {
+    "nameTitle": "Detta är ditt namn",
+    "userMessagesUnread_one": "Hej <1>{{name}}</1>, du har {{count}} oläst meddelande. <5>Gå till meddelande</5>.",
+    "userMessagesUnread_other": "Hej <1>{{name}}</1>, du har {{count}} olästa meddelanden. <5>Gå till meddelanden</5>."
   }
 }

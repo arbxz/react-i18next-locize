@@ -3,7 +3,8 @@ import "./i18n";
 import "./App.css";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "./components/LanguageSelector";
-import Card from "./components/Card";
+import ButtonCounter from "components/ButtonCounter";
+import TransComponentExample from "components/TransComponentExample";
 
 const App = () => {
   const { t } = useTranslation();
@@ -11,28 +12,12 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <LanguageSelector />
+
         <p>{t("common:welcome")}</p>
+        <code>Interpolation example :</code>
         <p>{t("common:welcomeUser", { name: "arbaaz" })}</p>
-        <Card />
-        <p>Links to Locize and nexus below :</p>
-        <a
-          className="App-link"
-          href="https://locize.com"
-          target="_blank"
-          rel="noopener noreferrer">
-          Locize
-        </a>
-        <a
-          className="App-link"
-          href="https://i18nexus.com/tutorials/react/react-i18next"
-          target="_blank"
-          rel="noopener noreferrer">
-          React-i18n nexus
-        </a>
+        <ButtonCounter />
       </header>
     </div>
   );
