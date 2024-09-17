@@ -4,7 +4,6 @@ import "./App.css";
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "./components/LanguageSelector";
 import ButtonCounter from "components/ButtonCounter";
-import TransComponentExample from "components/TransComponentExample";
 
 const App = () => {
   const { t } = useTranslation();
